@@ -315,6 +315,12 @@ table {
     width: 100%;
 }
 
+.table4 .tr2 .td:nth-child(1) p, .table4 .tr:nth-child(1) .td:nth-child(2) p {
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+
 
 .td p {
     padding-top: 16px;
@@ -326,14 +332,6 @@ table {
 .table4 {
     margin-bottom: 100px;
 }
-
-
-
-.tablemodify {
-
-}
-
-
 
 
 
@@ -390,9 +388,35 @@ table {
     padding-bottom: 15px;
 }
 
+.table4 .tr2 p {
+    text-align: left;
+}
+
+
+.table4 tr p {
+    text-align: center;
+}
+
+.table4 .tr2 td:first-child p {
+    text-align: center;
+}
+
+.table4 .tr:nth-child(1) .td:nth-child(2) p {
+    text-align: left;
+}
 
 .table4 {
     border-collapse: collapse;
+}
+
+
+.table4 .tr2 p {
+    padding-left: 25px;
+}
+
+.table4 .tr2 .td:nth-child(3) p, .table4 .tr2 .td:nth-child(4) p, .table4 .tr2 .td:nth-child(5) p {
+    text-align: right;
+    padding-right: 20px;
 }
 
 
@@ -401,12 +425,8 @@ table {
 }
 
 
-.table5, .table5 .tr2, .table5 .tr {
-    width: 100%;
-}
 
-
-.table4 .tr2:nth-child(2) {
+.table4 .tr2:nth-child(2n) {
     background-color: #e8e8e8;
 }
 
@@ -461,3 +481,118 @@ table {
 }
 
 
+
+.table5 .tr2:nth-child(2n) {
+    background-color: #e8e8e8;
+}
+
+
+.table5 .tr2:nth-child(2n):hover {
+    background-color: #c0c1c2;
+}
+
+
+.table4 .tr .td:nth-child(2) p {
+    padding-left: 35px !important;
+}
+
+
+.menu3 {
+    display: none;
+    width: 420px;
+    top: 49px;
+    padding-top: 25px;
+    z-index: 5;
+}
+
+.menu3 ul {
+    width: 50%;
+}
+
+.menu3:hover {
+    display: flex !important;
+}    
+
+.p1-flex:hover .menu3 {
+    display: flex;
+}
+
+
+.menu4 {
+    left: -84px;
+}
+
+
+.tableintable2 .p1:nth-child(1) p:before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 13px;
+    background-image: url(../images/home.png);
+    left: 30px;
+    top: 17px;
+}
+
+
+.tableintable2 p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    margin-left: 60px;
+    margin-right: 20px;
+
+}
+
+
+.sociality a {
+    position: relative;
+}
+
+
+.sociality .fb:after {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 18px;
+    background-image: url(../images/fb.png);
+    right: 110px;
+    top: 15px;
+}
+
+
+.sociality .tw:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/tw.png);
+    right: 70px;
+    top: 17px;
+}
+
+.sociality .inst:after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 16px;
+    background-image: url(../images/inst.png);
+    right: 30px;
+    top: 16px;    
+}
+
+
+.tableintable-navigation {
+    display: flex;
+    width: 80%;
+}
+
+
+
+.tableintable2 .p1 {
+    max-width: 150px;
+}
+
+.tableintable2 .p1 p {
+    left: 60px;
+}
