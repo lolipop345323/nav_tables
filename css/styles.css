@@ -316,6 +316,10 @@ table {
 }
 
 
+.table4 .tr2:hover .td {
+    background-color: #c0c1c2 !important;
+}
+
 
 .td p {
     padding-top: 16px;
@@ -373,6 +377,12 @@ table {
 }
 
 
+.menu3hover {
+    left: -215px;
+    margin-top: -74px;
+}
+
+
 .menu2 .relative:hover .menu3 {
     display: block;
 }
@@ -426,6 +436,55 @@ table {
     background-color: #e8e8e8;
 }
 
+.table5 .td {
+    border-right: 1px solid #c0c1c2;
+    border-left: none;
+    border-bottom: 1px solid #c0c1c2;
+    border-top: none;
+}
+
+
+.table5 .tr .td {
+    border-right: 1px solid #3f4852;
+    border-left: none;
+    border-bottom: 1px solid #3f4852;
+    border-top: none;
+}
+
+
+.table4 .tr .td {
+    border-right: 1px solid #3f4852;
+    border-left: none;
+    border-bottom: 1px solid #3f4852;
+    border-top: none;
+}
+
+
+.table4 .td {
+    border-right: 1px solid #c0c1c2;
+    border-left: none;
+    border-bottom: 1px solid #c0c1c2;
+    border-top: none;
+}
+
+
+
+.table5 .tr2 .td:last-child {
+    border-right: none;
+}
+
+
+
+.table4 .tr2 .td:last-child {
+    border-right: none;
+}
+
+.tr2bbn .td {
+    border-bottom: none;
+}
+
+
+
 .table5 .tr2:hover {
     background-color: #c0c1c2;
 }
@@ -451,6 +510,7 @@ table {
 
 .table5 {
     display: table;
+    width: 100%;
 }
 
 .tr {
@@ -463,8 +523,11 @@ table {
 }
 
 .table5 p {
-    display: inline-block;
     padding: 18px 20px 15px 28px;
+}
+
+.table5 .td:nth-child(3) p, .td:nth-child(4) p, .td:nth-child(5) p {
+    text-align: right;
 }
 
 
